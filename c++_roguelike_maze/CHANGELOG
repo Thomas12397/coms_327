@@ -1,0 +1,86 @@
+1/20/2018  Started assignment1.01: Make a dungeon. Created the boundary lines and random rooms
+1/21/2018  Started adding to the room generator to also create the corridors that would
+	   connect to each room
+1/22/2018  Changed the algorithm for generating rooms and corridors to make it more efficient.
+	   Originally, it would place them completely randomly which at times created a much
+	   longer runtime than desired.
+1/22/2018  Finished programming the requirements for assignment1.01.
+
+1/29/2018  Started assignment1.02: Save and load. Made changes to program by making global 
+	   variables so I can make changes to the whole dungeon. Also included a shuffle to 
+	   make the corridors more "exciting".
+1/30/2018  Attmpted to make a save and load but found problems loading other people's dungeons
+	   and ran into many bugs. Moving on to the next assignment. End assignment1.02
+	   
+2/4/2018   Started assignment1.03: Add a pathfinding algorithm to map out the path for the monsters.
+	   Added the PC symbol to the genDungeon() function. Also added a flag "--dijk" in main.
+2/5/2018   Made the much needed change and made the dungeon and hardness as global variables. I made
+	   a lot more comments to my program to hopefully help myself and the TA's. This also fixed
+	   the bugs with save and load so it now functions as desired.
+2/12/2018  Started to create the pathfinding algorithm that would be used for the monsters. Ran
+	   into problems with the monsters who could not tunnel. Finished the tunneling one.
+2/13/2018  Fixed the issue of printing the nontunneling monsters. End assignment1.03
+
+2/17/2018  Started assignment1.04: Make the monsters.
+2/18/2018  Changed up some functions from 1.03 to make it so you can generate the distance maps
+	   without printing it to the console. Also did some testing with the PC random movement.
+2/19/2018  Started making the monsters move towards the PC. More testing to make it work as
+	   specified.
+2/20/2018  Finished making the monsters move toward the PC. Added flag '--mons' to run the program.
+	   End assignment1.04
+
+2/21/2018  Made a couple style fixes like changed monster icons to 'm' and 'M'. Also changed the
+	   behavior of the main() function.
+2/23/2018  Added the staircases to the dungeons. Also added a moveable PC while testing the common
+	   bugs, and fixed them. Need to add a message for game over.
+2/24/2018  Added quit. Started to display the monster list below the dungeon first. WIP and pretty
+	   buggy.
+2/26/2018  Fixed the monster list display and now it displays over the dungeon. Added the scroll
+	   feature. End assignment1.05
+	   
+3/14/2018  Started assignment1.06: Porting to c++ and fog of war. Successfully ported c code to c++.
+3/17/2018  Implemented Fog of War. There is a bug in the situation where a monster comes into view,
+	   then the PC moves away from it so there is a duplication of the monster.
+3/18/2018  Implemented teleporting. Works as specified. Fog of War has another bug where it
+	   remembers the PC's last teleport location. Need to add case for teleporting to a border.
+3/19/2018  Every bug is fixed besides not being able to teleport to a border. Also cleaned up a lot
+	   of my code by putting them into functions rather than inside of keyboardListener().
+3/20/2018  Fixed the last bug. End assignment1.06
+
+3/22/2018  Cleaned up a lot of code from 1.06. Added variable to PC to detect if it has moved.
+	   This was done to avoid a lot of recursion with the keyboard listener and looks cleaner.
+3/24/2018  Started assignment1.07: Parsing monsters. Added the file that would be read from
+3/25/2018  Successfully parsed a monster and outputted its attributes. End assignment1.07
+3/27/2018  Found an error with DESC where it needs to be towards the beginning for the monsters.
+	   Also decided to implement the object parser because I got bored.
+	   
+3/29/2018  Started assignment1.08: Loading Monsters and Objects. Massive overhaul to my code
+	   to become dynamic and able to parse in monsters. Monsters are now displayed on the
+	   terminal.
+3/31/2018  Implemented monsters fully with randomly choosing them and started implementing
+	   objects into the dungeon. Also made converters from string to respective values
+	   such as color and dice values.
+4/1/2018   Finished implementing the objects and monsters into the game. End assignment1.08
+
+4/7/2018   Started assignment1.09: PC Equipment and Updated Combat. Made some small changes and
+	   added the ability to pick up items. Made PC have an inventory and equipment.
+4/9/2018   Added in the command for everything to do with the PC's carry inventory
+4/10/2018  Added in the commands related to the PC's equipment. Also made it so the PC 
+	   automatically picks up the items. End assignment1.09
+
+
+
+
+
+
+
+
+	   
+
+
+	   
+
+
+
+
+

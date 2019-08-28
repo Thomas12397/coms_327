@@ -1,0 +1,15 @@
+I chose to create the Snake Game is my "choose your own assignment". The game
+starts by the user pressing the 'Spacebar' which starts the game. There is a
+delay to make sure the user is ready and the game starts. The user can control
+the snake with the 'arrow keys', so the snake can move UP, DOWN, LEFT, and RIGHT.
+The objective is to eat the red 'F' on the board, which increases the snake's length.
+The game ends if the snake runs into itself or touches one of the borders. Have fun!
+
+To run: It is recommended to set the terminal window size to (80 x 24), but not required.
+	I also made the screen dynamic, it can be any size but increasing the size 
+	decreases the level of difficulty.
+	  
+	  go into directory: haddy_thomas-assignment1.10
+	  make
+	  ./snake
+	  make clean

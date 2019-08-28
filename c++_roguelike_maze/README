@@ -1,0 +1,20 @@
+My program now includes the ability to use PC Equipment and updated the combat in the game. Now
+if you beat the boss, Spongebob Squarepants, the game ends with the PC victorious. If you use 
+one of this week's commands, I have it set so once the command is finished, it goes back to 
+the menu it was at. To exit the menu to the dungeon, press 'ESC'. Teleporting is now the 'g'
+command. The only command I did not implement was the 'L' command. Everything else should be 
+working as specified.
+
+To run: It is recommended to set the terminal window size to (80 x 24), but not required.
+	  
+	  go into directory: haddy_thomas-assignment1.09
+	  make
+	  ./main --play
+	  make clean
+	  
+PS: If you want to look at the monsters or objects being parsed use:
+	  ./main --parse_mon
+	  ./main --parse_obj
+	  
+DISCLAIMER: My program will not work unless the monster_desc.txt and object_desc.txt are
+	    present inside of $HOME/.rlg327. Let me know if there are problems with running.

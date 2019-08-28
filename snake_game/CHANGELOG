@@ -1,0 +1,7 @@
+4/11/2018   Started assignment1.10: Choose your Own Assignment. I chose to implement the Snake Game.
+	    I made sure ncurses was working and started looking up some different things you can
+	    do with it.
+4/15/2018   Implemented the game correctly but there is a bug where the colors blink.
+4/17/2018   Fixed the bugs and game is fully implemented.
+4/21/2018   Cleaned up some code, same functionality. End assignment1.10
+            

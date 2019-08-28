@@ -1,0 +1,13 @@
+My program now includes a movable PC, staircases to new, random dungeons, and a monster list that
+displays the monsters position relative to the PC. When the PC enter a staircase, it essentially
+generates a new dungeon for the PC. I used the number pad to move the PC, so the numbers 1-9 
+move it. Possible keyboard keys: 1-9, m, Q, UP_ARROW, DOWN_ARROW, esc. When the game is over,
+I have the terminal sleep for 5 seconds so the user can see how they died in the game. To test
+the scroll, you might need to change my MONSTERS macro at the top of my code.
+My program should meet all of the specifications stated.
+
+To run: It is recommended to set the terminal window size to (80 x 24), but not required.
+
+	  make
+	  ./dungeon --play
+	  make clean
